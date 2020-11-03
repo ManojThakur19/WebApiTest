@@ -42,9 +42,17 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.CodeCoverage": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.2.0, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[4.7.1, )"
             },
             "coverlet.collector": {
               "target": "Package",

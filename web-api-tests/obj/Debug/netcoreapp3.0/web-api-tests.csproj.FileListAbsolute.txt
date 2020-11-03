@@ -184,8 +184,8 @@ D:\sampleProjects\unit-testing-aspnetcore-webapi-master\unit-testing-aspnetcore-
 D:\sampleProjects\unit-testing-aspnetcore-webapi-master\unit-testing-aspnetcore-webapi-master\netcore-unit-testing\web-api-tests\obj\Debug\netcoreapp3.0\web-api-tests.csprojAssemblyReference.cache
 D:\sampleProjects\unit-testing-aspnetcore-webapi-master\unit-testing-aspnetcore-webapi-master\netcore-unit-testing\web-api-tests\obj\Debug\netcoreapp3.0\web-api-tests.AssemblyInfoInputs.cache
 D:\sampleProjects\unit-testing-aspnetcore-webapi-master\unit-testing-aspnetcore-webapi-master\netcore-unit-testing\web-api-tests\obj\Debug\netcoreapp3.0\web-api-tests.AssemblyInfo.cs
-D:\sampleProjects\unit-testing-aspnetcore-webapi-master\unit-testing-aspnetcore-webapi-master\netcore-unit-testing\web-api-tests\obj\Debug\netcoreapp3.0\web-api-tests.csproj.CoreCompileInputs.cache
 D:\sampleProjects\unit-testing-aspnetcore-webapi-master\unit-testing-aspnetcore-webapi-master\netcore-unit-testing\web-api-tests\obj\Debug\netcoreapp3.0\web-api-tests.csproj.CopyComplete
 D:\sampleProjects\unit-testing-aspnetcore-webapi-master\unit-testing-aspnetcore-webapi-master\netcore-unit-testing\web-api-tests\obj\Debug\netcoreapp3.0\web-api-tests.dll
 D:\sampleProjects\unit-testing-aspnetcore-webapi-master\unit-testing-aspnetcore-webapi-master\netcore-unit-testing\web-api-tests\obj\Debug\netcoreapp3.0\web-api-tests.pdb
 D:\sampleProjects\unit-testing-aspnetcore-webapi-master\unit-testing-aspnetcore-webapi-master\netcore-unit-testing\web-api-tests\obj\Debug\netcoreapp3.0\web-api-tests.genruntimeconfig.cache
+D:\sampleProjects\unit-testing-aspnetcore-webapi-master\unit-testing-aspnetcore-webapi-master\netcore-unit-testing\web-api-tests\obj\Debug\netcoreapp3.0\web-api-tests.csproj.CoreCompileInputs.cache
