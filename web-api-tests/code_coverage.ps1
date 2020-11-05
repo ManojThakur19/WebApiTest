@@ -3,11 +3,11 @@
     $currentDirectory = Get-Location
     $testProjectPath = "$currentDirectory\web-api-tests"
     $testSettingsPath = "$currentDirectory\web-api-tests\codecoverage.runsettings"
+    $testResultDirectory = "$currentDirectory\TestResults"
 
 try {
 
     Write-Host "Cache clean up running..." -ForegroundColor Green
-    $testResultDirectory = "$currentDirectory\TestResults"
     if ((Test-Path -Path $testResultDirectory -PathType Container)) 
     {
        Remove-Item -path $testResultDirectory -recurse 
@@ -20,9 +20,11 @@ try {
     $recentCoverageFile = Get-ChildItem -File -Filter *.coverage -Path $testResultDirectory -Name -Recurse | Select-Object -First 1;
     write-host 'test successful'  -ForegroundColor Green
 
+    $codeCoverageLocation = Get-ChildItem -File -Filter CodeCoverage.exe -Path 'C:\' -Name -Recurse | Select-Object -First 1;
+    echo $codeCoverageLocation
 
     Write-Host "converting coverage file to coverageXml..." -ForegroundColor Green
-    C:\Users\i157864\.nuget\packages\microsoft.codecoverage\16.7.1\build\netstandard1.0\CodeCoverage\CodeCoverage.exe analyze  /output:$testResultDirectory\MyTestOutput.coveragexml  $testResultDirectory'\'$recentCoverageFile
+    C:\$codeCoverageLocation analyze  /output:$testResultDirectory\MyTestOutput.coveragexml  $testResultDirectory'\'$recentCoverageFile
     write-host 'CoverageXML Generated'  -ForegroundColor Green
 
 
