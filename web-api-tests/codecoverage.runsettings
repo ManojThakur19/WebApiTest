@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RunSettings>
 	<RunConfiguration>
-		<ResultsDirectory>.\..\..\..\TestResults</ResultsDirectory>
+		<ResultsDirectory>.\..\..\TestResults</ResultsDirectory>
 	</RunConfiguration>
 
 	<!-- Configurations for data collectors -->
@@ -12,17 +12,14 @@
 					<CodeCoverage>
 						<ModulePaths>
 							<Exclude>
-								<!--<ModulePath>.*batchprocessorlibrary.dll.*</ModulePath>
-								<ModulePath>.*cucumberunittests.dll.*</ModulePath>
-								<ModulePath>.*dapper.dll.*</ModulePath>
-								<ModulePath>.*cpe.data.dll.*</ModulePath>
-								<ModulePath>.*redisfacade.dll.*</ModulePath>-->
-								<!--<ModulePath>^hci.editors.dll_\r?$RuleLoader</ModulePath>
-								<ModulePath>^hci.editors.dll_\r?$RuleReader</ModulePath>-->
+								<ModulePath>.*web-api.dll.*</ModulePath>
+								<ModulePath>.*xunit.assert.dll.*</ModulePath>
+								<ModulePath>.*xunit.core.dll.*</ModulePath>
+								<ModulePath>.*xunit.execution.dotnet.dll.*</ModulePath>
+								<ModulePath>.*xunit.runner.reporters.netcoreapp10.dll.*</ModulePath>
+								<ModulePath>.*xunit.runner.utility.netcoreapp10.dll.*</ModulePath>
+								<ModulePath>.*xunit.runner.visualstudio.dotnetcore.testadapter.dll.*</ModulePath>
 							</Exclude>
-							<!--<Include>
-								<ModulePath>.*Edit.*</ModulePath>
-							</Include>-->
 						</ModulePaths>
 
 						<!-- We recommend you do not change the following values: -->
