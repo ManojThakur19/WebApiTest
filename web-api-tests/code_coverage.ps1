@@ -21,10 +21,11 @@ try {
     write-host 'test successful'  -ForegroundColor Green
 
     $codeCoverageLocation = Get-ChildItem -File -Filter CodeCoverage.exe -Path 'C:\' -Name -Recurse | Select-Object -First 1;
+    $reportGeneratorLocation = Get-ChildItem -File -Filter ReportGenerator.dll -Path 'C:\' -Name -Recurse | Select-Object -First 1;
     echo $codeCoverageLocation
 
     Write-Host "converting coverage file to coverageXml..." -ForegroundColor Green
-    C:\$codeCoverageLocation analyze  /output:$testResultDirectory\MyTestOutput.coveragexml  $testResultDirectory'\'$recentCoverageFile
+    C:\Users\i157864\.nuget\packages\microsoft.codecoverage\16.7.1\build\netstandard1.0\CodeCoverage\CodeCoverage.exe analyze  /output:$testResultDirectory\MyTestOutput.coveragexml  $testResultDirectory'\'$recentCoverageFile
     write-host 'CoverageXML Generated'  -ForegroundColor Green
 
 
