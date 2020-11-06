@@ -1,6 +1,7 @@
     Write-Host "Code Coverage Report Generation Started." -ForegroundColor Green
 
     $currentDirectory = Get-Location
+    echo $currentDirectory
     $testProjectPath = "$currentDirectory\web-api-tests"
     $testSettingsPath = "$currentDirectory\web-api-tests\codecoverage.runsettings"
     $testResultDirectory = "$currentDirectory\TestResults"
